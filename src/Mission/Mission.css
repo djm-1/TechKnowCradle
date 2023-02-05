@@ -1,0 +1,7 @@
+  .curved {
+    position: relative;
+    background: #FFFFFF;
+    height: 10vh;
+    border-bottom-left-radius: 50% 75%;
+    border-bottom-right-radius: 50% 75%;
+  }

@@ -1,0 +1,51 @@
+.bg-image{
+    background-image: url('/public/77.png');
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    
+}
+.ml10 {
+    position: relative;
+    font-weight: 900;
+    font-size: 2.8em;
+    color: #fff;
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+
+  .custom-shape-divider-bottom-1675599593 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1675599593 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 95px;
+}
+
+.custom-shape-divider-bottom-1675599593 .shape-fill {
+    fill: #FFFFFF;
+}

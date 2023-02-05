@@ -1,0 +1,15 @@
+.accordion{
+    margin-top: 4rem;
+}
+.faq-img{
+    margin-top: 3rem;
+}
+.faq-head{
+    margin-top: 4rem;
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 700;
+    color: #ab47bc;
+}
