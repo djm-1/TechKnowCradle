@@ -3,7 +3,7 @@ import './NavBar.css';
 export default function NavBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container-fluid">
         <a class="navbar-brand mt-2 mt-lg-0" href="/">
               <img
@@ -51,7 +51,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#payment">
+                <a class="nav-link" href="#faq">
                   FAQ
                 </a>
               </li>

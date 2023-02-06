@@ -3,7 +3,7 @@ import React from 'react'
 export default function Payment() {
   return (
     <>
-    <div style={{background:'#3D2645'}}>
+    <div style={{background:'#3D2645'}} id="payment">
         <svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" ><path  d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill" fill="#FFFFFF" fill-opacity="1"></path></svg>
     
         <h1 className='text-white hero my-5 text-center'

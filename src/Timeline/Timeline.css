@@ -1,5 +1,6 @@
 .main-timeline {
   position: relative;
+  overflow-x: hidden !important;
 }
 
 .main-timeline::after {

@@ -2,10 +2,9 @@ import React from 'react'
 import './Faq.css';
 export default function Faq() {
   return (
-    <>
+    <div id="faq">
     <h1 className= "hero text-center mt-4" style={{color:'#DA4167'}}
-    data-aos="flip-left"
-    data-aos-duration="2000">
+>
       Frequently Asked Questions
     </h1>
     <div class = "container mb-5">
@@ -14,13 +13,15 @@ export default function Faq() {
       <img class = "faq-img img-fluid" style={{
         width:'300px'
       }} src='/img3.png'
+      data-aos="zoom-in"
+      data-aos-duration="2000"
       />
     </div>
     <div class = "col-md-6">
     <div class="accordion accordion-flush" id="accordionExampleY">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOneY">
-      <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+      <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
         data-mdb-target="#collapseOneY" aria-expanded="false" aria-controls="collapseOneY">
         <i class="fas fa-question-circle fa-sm me-2 opacity-70"></i>Accordion Item #1
       </button>
@@ -124,6 +125,6 @@ export default function Faq() {
     </div>
     </div>
     
-    </>
+    </div>
   )
 }

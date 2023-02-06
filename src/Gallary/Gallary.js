@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 export default function Gallary() {
   return (
-    <div>
+    <div id="gallery">
         <h1 className='hero text-center' style={{color:'#DA4167'}}>past events gallery</h1>
       <div className='mx-auto w-75 mt-4'>
     <Swiper

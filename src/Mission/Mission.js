@@ -4,7 +4,7 @@ import './Mission.css';
 export default function Mission() {
   return (
     <>
-    <div>
+    <div id="mission">
       
     <div className='row p-4 m-0'>
       <div className='col-md-6 text-center'>

@@ -2,7 +2,7 @@ import React from "react";
 import "./Timeline.css";
 export default function Timeline() {
   return (
-    <div>
+    <div id="timeline">
       <section style={{ backgroundColor: "#3D2645" }}>
         {" "}
         <h1
